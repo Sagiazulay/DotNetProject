@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DotNetProject
 {
-    interface ICountryDAO
+    interface ICountryDAO : IBasicDb<Country>
     {
     }
 }

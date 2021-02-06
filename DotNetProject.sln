@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetProject", "DotNetProject\DotNetProject.csproj", "{7E07F60D-702E-4F24-B8AB-0C571AC16237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA", "CA\CA.csproj", "{FC5DB89F-28ED-43AA-82FB-616B1A65E5A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightProfect", "FlightProfect\FlightProfect.csproj", "{65ED61C4-BB1A-4666-A86F-4018F1ACA3B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7E07F60D-702E-4F24-B8AB-0C571AC16237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E07F60D-702E-4F24-B8AB-0C571AC16237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E07F60D-702E-4F24-B8AB-0C571AC16237}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC5DB89F-28ED-43AA-82FB-616B1A65E5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC5DB89F-28ED-43AA-82FB-616B1A65E5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC5DB89F-28ED-43AA-82FB-616B1A65E5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC5DB89F-28ED-43AA-82FB-616B1A65E5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ED61C4-BB1A-4666-A86F-4018F1ACA3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ED61C4-BB1A-4666-A86F-4018F1ACA3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ED61C4-BB1A-4666-A86F-4018F1ACA3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ED61C4-BB1A-4666-A86F-4018F1ACA3B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

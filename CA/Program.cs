@@ -10,7 +10,8 @@ namespace CA
     {
         static void Main(string[] args)
         {
-            country 
+             
+
         }
     }
 }

@@ -6,7 +6,7 @@ namespace DotNetProject
 {
     public class Country : IPOCO
     {//a_sp_insert_country
-        public int ID { get; set; }
+        public long ID { get; set; }
         public string Name { get; set; }
 
         public Country()
@@ -14,7 +14,7 @@ namespace DotNetProject
 
         }
 
-        public Country(int id, string name)
+        public Country(long id, string name)
         {
             ID = id;
             Name = name;
@@ -27,7 +27,7 @@ namespace DotNetProject
 
         public override int GetHashCode()
         {
-            return this.ID;
+            return (int)this.ID;
         }
         public static bool operator ==(Country c1, Country c2)
         {

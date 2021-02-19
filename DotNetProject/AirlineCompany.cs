@@ -6,18 +6,19 @@ namespace DotNetProject
 {
     class AirlineCompany : IPOCO , IUser
     {
-        public int ID { get; set; }
+        public long ID { get; set; }
         public string Name { get; set; }
-        public int Country_Id { get; set; }
-        public int User_Id { get; set; }
+        public long Country_Id { get; set; }
+        public long User_Id { get; set; }
 
         public AirlineCompany()
         {
 
         }
 
-        public AirlineCompany(string name, int country_Id, int user_Id)
+        public AirlineCompany(int id, string name, long country_Id, long user_Id)
         {
+            ID = id;
             Name = name ?? throw new ArgumentNullException(nameof(name));
             Country_Id = country_Id;
             User_Id = user_Id;
@@ -30,7 +31,7 @@ namespace DotNetProject
 
         public override int GetHashCode()
         {
-            return this.ID;
+            return (int)this.ID;
         }
 
         public override string ToString()

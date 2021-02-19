@@ -4,19 +4,20 @@ using System.Text;
 
 namespace DotNetProject
 {
-    class Ticket : IPOCO
+    public class Ticket : IPOCO
     {
-        public int ID { get; set; }
-        public int Flight_Id { get; set; }
-        public int Customer_Id { get; set; }
+        public long ID { get; set; }
+        public long Flight_Id { get; set; }
+        public long Customer_Id { get; set; }
 
         public Ticket()
         {
 
         }
 
-        public Ticket(int flight_Id, int customer_Id)
+        public Ticket(long id, long flight_Id, long customer_Id)
         {
+            ID = id;
             Flight_Id = flight_Id;
             Customer_Id = customer_Id;
         }
@@ -28,7 +29,7 @@ namespace DotNetProject
 
         public override int GetHashCode()
         {
-            return this.ID;
+            return (int)this.ID;
         }
         public static bool operator ==(Ticket t1, Ticket t2)
         {
